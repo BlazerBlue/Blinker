@@ -5,8 +5,8 @@
 */
 
 int stateLED;
-const int msOn = 1000;
-const int msOff = 500;
+const int msOn = 2000;
+const int msOff = 1000;
 
 void setup() {
 	pinMode(13, OUTPUT);
