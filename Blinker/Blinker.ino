@@ -12,6 +12,11 @@ void setup() {
 	pinMode(13, OUTPUT);
 	digitalWrite(13, 0);
 	stateLED = 0;
+
+	Serial.begin(115200);
+	while (!Serial);
+	Serial.print("On time[ms] = "); Serial.println(msOn);
+	Serial.print("Off time[ms] = "); Serial.println(msOff);
 }
 
 void loop() {
