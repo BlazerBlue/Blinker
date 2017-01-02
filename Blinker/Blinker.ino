@@ -5,7 +5,7 @@
 */
 
 int stateLED;
-const int msOn = 2000;
+const int msOn = 4000;
 const int msOff = 1000;
 
 void setup() {
